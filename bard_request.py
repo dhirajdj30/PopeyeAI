@@ -4,12 +4,12 @@ from main import say, takeCommand
 def Bard(prom):
     url = "https://bard-api-fast.p.rapidapi.com/get_answer"
 
-    querystring = {"Secure_1PSID":"awjHaNGge7DhFSUjfIVG8mDq6hmgNwEBsrfydO9PATBeUg5YdLbKiVzKd1J687AqjRRdcg."}
+    querystring = {"Secure_1PSID":"<REQUIRED>"}
 
     payload = {"input_text": prom}
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "20734c03a9mshd72b89fbd6ea179p180777jsn99be2d020604",
+        "X-RapidAPI-Key": "<REQUIRED>",
         "X-RapidAPI-Host": "bard-api-fast.p.rapidapi.com"
     }
 
